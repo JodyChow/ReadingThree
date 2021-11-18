@@ -1,0 +1,110 @@
+/* CODE FROM ALI */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+#page {
+	width: 11in;
+	height: 17in;
+	border: 1px solid #000;
+	transform-origin: 50% 0%;	
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+
+}
+
+@media print {
+
+	#page {
+		border: none!important; /*overide the the border around the poster when you print*/
+		transform: scale(1)!important; /*override the page scaling*/
+		
+	}
+
+}
+
+/* STYLES */
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 70px;
+	text-align: left;
+
+	margin-left: 2.5in;
+	margin-right: 2.5in;
+	margin-top: 2in;
+	margin-bottom: 0.3in;
+
+}
+
+#author {
+	font-family: 'Roboto', sans-serif;
+	font-size: 10px;
+	font-weight: 300;
+	text-align: left;
+
+	margin-left: 2.5in;
+	margin-top: 0.3in;
+}
+
+#cloud {
+	color: black;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 3px;
+}
+
+#para {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	text-align: left;
+
+	margin-left: 2.5in;
+	margin-right: 3in;
+}
+
+#line {
+	display: block;
+	position: absolute;
+	border-left: 2px solid #000;
+	height: 9.4in;
+	
+	margin-top: -11in;
+	margin-left: 2in;
+}
+
+#line2 {
+	display: block;
+	position: absolute;
+	border-top: 2px solid #000;
+	width: 0.3in;
+
+	margin-top: -1.6in;
+	margin-left: 2in;
+}
+
+#line3 {
+	display: block;
+	position: absolute;
+	border-top: 2px solid #000;
+	width: 0.3in;
+
+	margin-top: -11in;
+	margin-left: 2in;
+}
+
+#circle {
+	display: block;
+	position: absolute;
+	border: 2px solid #000;
+	height: 1.5in;
+	width: 6in;
+	border-radius: 50%;
+
+	margin-left: 2.3in;
+	margin-top: -2in;
+	transform: rotate(-2deg);
+}
